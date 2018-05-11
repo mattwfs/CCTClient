@@ -14,8 +14,10 @@ class CreateConversationsTable extends Migration
     {
         Schema::create('conversations',function($t){
             $t->increments('id');
-            $t->user_a('id');
-            $t->user_b('id');
+            $t->integer('user_a');
+            $t->foreign('user_a')->references('id')->on('users');
+            $t->integer('user_b');
+            $t->foreign('user_b')->references('id')->on('users');
             //$t->timestamps();
         });
     }

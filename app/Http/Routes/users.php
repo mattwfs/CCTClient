@@ -21,9 +21,11 @@ Route::group([
         Route::post('post-application','ApplicationsController@post_applications'); 
         
         Route::get('application/{id}/download','ApplicationsController@download');  
+        Route::get('application/{id}','ApplicationsController@single');
         
         
         Route::get('messages','MessagesController@index'); 
+        Route::get('conversation/{id}','MessagesController@conversation'); 
         Route::post('send-message','MessagesController@send_message'); 
         //Route::get('message/{id}','MessagesController@single'); 
         /*complete profile middleware*/

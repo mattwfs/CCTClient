@@ -22,9 +22,9 @@ class RoleMiddleware
         }
         else{
             if(auth()->user()->role_id != get_role_id($role))
-                {
+            {
                 return redirect('not-authorized');
-                }   
+            }   
         }
 
         return $next($request);

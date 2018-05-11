@@ -24,6 +24,7 @@
         
         <div class="col-md-9">
           <input type="text" name="message" placeholder="Message" class="form-control" required/>
+          <input type="hidden" name="conversation_id" value="{{$conversation_id}}" />
         </div>
         
         <div class="col-md-2">

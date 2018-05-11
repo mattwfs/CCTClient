@@ -2,24 +2,25 @@
 
 namespace App\Http\Controllers\Admin;
 
-use Illuminate\Http\Request;
-
-use App\Http\Requests;
+use App\Application;
+use App\Clinic;
+use App\Conversation;
 use App\Http\Controllers\Controller;
 use App\Message;
-use App\Application;
 use App\User;
-use App\Conversation;
-use Validator;
+use Illuminate\Http\Request;
 use Session;
+use Validator;
 
 class MessagesController extends Controller
 {
     function index($user_id) {
         $data['user'] = User::find($user_id);
-        $conversation = Conversation::where("user_a",$user_id)
-                                        ->orWhere("user_b",$user_id)
-                                        ->first();
+        $conversation = Conversation::
+            where([
+                ['clinic_id', '=', $data['user']->clinic_id],
+                ['application_id', '=', NULL],
+            ])->first();
         if($conversation){
             return redirect(url('admin/conversation/'.$conversation->id));
         }
@@ -31,9 +32,22 @@ class MessagesController extends Controller
 
 
     function conversations() {
-        $data['conversations'] = Conversation::whereNull("deleted_at")->where("user_a",auth()->user()->id)
+        $conversations = Conversation::whereNull("deleted_at")->where("user_a",auth()->user()->id)
                                                 ->orWhere("user_b",auth()->user()->id)
                                                 ->get();
+        $conversationsCollection = collect($conversations);
+        $conversationsGroupedByClinic = $conversationsCollection->groupBy(function ($item, $key) {
+            $clinic = Clinic::where("id", $item->clinic_id)->first();
+            if($clinic != null)
+            {
+                return $clinic->name;
+            }
+            return "No clinic";
+        })->sortBy(function ($object, $key) {
+            return $key;
+        });  
+        
+        $data["conversationsGroupedByClinic"] = $conversationsGroupedByClinic;
         return view('admin.conversations',$data);
     }
 
@@ -41,7 +55,7 @@ class MessagesController extends Controller
     function conversation($conversation_id) {
         $conversation = Conversation::find($conversation_id);
         $user_id = $conversation->user_a;
-        if($conversation->user_a = auth()->user()->id){
+        if($conversation->user_a == auth()->user()->id){
           $user_id = $conversation->user_b;
         }
         $data['user'] = User::find($user_id);
@@ -59,6 +73,14 @@ class MessagesController extends Controller
         if($validator->fails()){
             return redirect()->back()->withErrors($validator)->withInput();
         }
+        
+        $clinic_id = null;
+        $user = User::where("id", $request->user_id)->first();
+        $clinic = Clinic::where("id", $user->clinic_id)->first();
+        if($clinic != null)
+        {
+            $clinic_id = $clinic->id;
+        }
 
         if($request->application_id){
             $conversation = Conversation::where("user_a",$request->user_id)
@@ -71,6 +93,7 @@ class MessagesController extends Controller
                 $conversation->user_a = auth()->user()->id;
                 $conversation->user_b = $request->user_id;
                 $conversation->application_id = $request->application_id;
+                $conversation->clinic_id = $clinic_id;
                 $conversation->save();
             }
 
@@ -91,6 +114,7 @@ class MessagesController extends Controller
                 $conversation->user_a = auth()->user()->id;
                 $conversation->user_b = $request->user_id;
                 $conversation->application_id = $request->application_id;
+                $conversation->clinic_id = $clinic_id;
                 $conversation->save();
             }
 

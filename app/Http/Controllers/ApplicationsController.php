@@ -2,18 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
-use App\Http\Requests;
-use App\Trial;
-use App\Question;
-use App\User;
-use App\Application;
-use App\Investigator;
-use App\Attachment;
-use App\Referral;
 use App\Answer;
-use Validator;
+use App\Application;
+use App\Attachment;
+use App\Conversation;
+use App\Question;
+use App\Referral;
+use App\Trial;
+use App\User;
+use App\Message;
+use Illuminate\Http\Request;
 use PDF;
 
 class ApplicationsController extends Controller
@@ -175,5 +173,27 @@ class ApplicationsController extends Controller
         return $application;
                                     
         
+    }
+    
+    
+    function single($id) {
+        
+        $app =Application::find($id);
+        
+        $data['trial'] = Trial::find($app->trial->id);
+        $data['questions'] = Question::where("trial_id",$data['trial']->id)->get();
+        if(count($data['questions'])){
+            $data['answers'] = Answer::where("application_id",$id)->get();
+        }
+        $data["conversation"] = Conversation::where("application_id",$id)->first();
+        if($data["conversation"]){
+            $data['messages'] = Message::where("conversation_id",$data["conversation"]->id)->get();
+        } else {
+            $data['messages'] = false;
+        }
+
+        $data['application'] = $app;
+
+        return view('users/application-single',$data);
     }
 }

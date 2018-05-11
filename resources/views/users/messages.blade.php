@@ -21,14 +21,16 @@
             ?>
             <a
             @if($c->application_id)
-            href="{{url('admin/application/'.$c->application_id)}}"
+            href="{{url('user/application/'.$c->application_id)}}"
             @else
-            href="{{url('admin/conversation/'.$c->id)}}"
+            href="{{url('user/conversation/'.$c->id)}}"
             @endif
             class="list-group-item {{$class}}">
-            {{get_user_name($user)}}
+            @if(!$c->application_id)
+                {{ get_clinic_name(auth()->user()->clinic_id) }}
+            @endif
             @if($c->application_id)
-            - For {{$c->application->trial->title}}
+                {{$c->application->trial->title}}
             @endif
             @if(convo_has_new_messages($c->id,$user))
           <span class="badge badge-danger badge-pill">

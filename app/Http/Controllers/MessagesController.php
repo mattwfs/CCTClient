@@ -2,19 +2,19 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
-use App\Http\Requests;
-use App\Message;
+use App\Clinic;
 use App\Conversation;
+use App\Message;
 use App\User;
+use Illuminate\Http\Request;
 
 class MessagesController extends Controller
 {
     function index() {
 
-        $data['conversations'] = Conversation::whereNull("deleted_at")->where("user_a",auth()->user()->id)
-            ->orWhere("user_b",auth()->user()->id)
+        $clinic_id = auth()->user()->clinic_id;
+        $data['conversations'] = Conversation::whereNull("deleted_at")
+            ->where("clinic_id",$clinic_id)
             ->get();
         return view('users.messages',$data);
         /*
@@ -42,11 +42,20 @@ class MessagesController extends Controller
 
     }
     
+    function conversation($conversation_id) {
+        $conversation = Conversation::find($conversation_id);
+        $user_id = $conversation->user_a;
+        if($conversation->user_a == auth()->user()->id){
+          $user_id = $conversation->user_b;
+        }
+        $data['user'] = User::find($user_id);
+        $data['conversation_id'] = $conversation_id;
+        $data['messages'] = Message::where("conversation_id",$conversation_id)->get();
+        return view('users.conversation',$data);
+    }
+    
     function single($id) {
         $data['message'] = Message::find($id);
-        if($data['message']->user_id != auth()->user()->id){
-           return redirect(url('not-authorized'));
-        }
         $data['message']->status = 'old';
         $data['message']->save();
         return view('users.message-single',$data);
@@ -59,16 +68,22 @@ class MessagesController extends Controller
                                 ->first();
         $admin_user_id = $admin_user->id;
         $message_txt = $request->message;
-        $conversation = Conversation::where("user_a",auth()->user()->id)
-                                        ->orWhere("user_b",auth()->user()->id)
-                                        ->first();
-        if(! $conversation){
+        $conversation = Conversation::where("id", $request->conversation_id)
+            ->first();
+        $clinic_id = null;
+        $user = auth()->user();
+        $clinic = Clinic::where("id", $user->clinic_id)->first();
+        if($clinic != null)
+        {
+            $clinic_id = $clinic->id;
+        }
+        if(! $conversation) {
             $conversation = new Conversation;
             $conversation->user_a = auth()->user()->id;
             $conversation->user_b = $admin_user_id;
+            $conversation->clinic_id = $clinic_id;
             $conversation->save();
         }
-        
         $message = new Message;
         $message->user_id = $admin_user_id;
         $message->msg_from = auth()->user()->id;

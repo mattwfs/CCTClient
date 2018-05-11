@@ -393,6 +393,10 @@ function get_user_name($id) {
         return ucfirst($user->first_name).' '.ucfirst($user->last_name);
 }
 
+function get_clinic_name($id) {
+        $clinic = App\Clinic::find($id);
+        return ucfirst($clinic->name);
+}
 
 function convo_has_new_messages($conversation_id,$user_id){
         
