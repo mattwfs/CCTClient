@@ -413,6 +413,15 @@
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+<script type="text/javascript">
+$(function(){
+   $(".form").on("submit",function(e){
+      $(this).find(".btn-primary").prop("disabled", true);
+   });
+});
+</script>
+
+
 @include('partials.admin.admin_confirmation')
 
 @endsection
