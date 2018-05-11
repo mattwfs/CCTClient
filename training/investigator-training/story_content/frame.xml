@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001110101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns00001110101" font="Open Sans" controllayout="npnxnanbsnfns00001110101" colorscheme="pxabnsnfns00001110101" string_table="pxabnsnfns00001110101" />
+    <layout name="pxabnsnfns00001110101" font="Open Sans" controllayout="pxabnsnfns00001110101" colorscheme="pxabnsnfns00001110101" string_table="pxabnsnfns00001110101" />
+    <layout name="npxnabnsnfns00001110101" font="Open Sans" controllayout="npxnabnsnfns00001110101" colorscheme="pxabnsnfns00001110101" string_table="pxabnsnfns00001110101" />
+    <layout name="npnxnanbnsnfns00001110101" font="Open Sans" controllayout="npnxnanbnsnfns00001110101" colorscheme="pxabnsnfns00001110101" string_table="pxabnsnfns00001110101" />
+    <layout name="pxabnsnfns00001110100" font="Open Sans" controllayout="pxabnsnfns00001110100" colorscheme="pxabnsnfns00001110101" string_table="pxabnsnfns00001110101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Advantage Clinical Conduct Clinical Trials Investigator Essentials" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="true" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00001110101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001110101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00001110101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001110101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001110100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns00001110101">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x909090" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDBDBDB" alpha="100" stop="0" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDEDEDE" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+                <color rgb="0xB2B2B2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="100" stop="0" />
+                <color rgb="0xBABABA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBCBCBC" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns00001110101">
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6GVkeI4TRaV" displaytext="Introduction to Clinical Research" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6GVkeI4TRaV.5wyG1tRwxhX" displaytext="Welcome" expand="false" type="slide" />
+            <slidelink slideid="_player.6GVkeI4TRaV.5i4s4rtsPIP" displaytext="Agenda" expand="false" type="slide" />
+            <slidelink slideid="_player.6GVkeI4TRaV.6Eq8YYE4uJF" displaytext="Course Navigation" expand="false" type="slide" />
+            <slidelink slideid="_player.6GVkeI4TRaV.6AcOBbA1rVr" displaytext="Clinical Research Overview" expand="false" type="slide" />
+            <slidelink slideid="_player.6GVkeI4TRaV.6kz3ufFhrLi" displaytext="What is Clinical Research?" expand="false" type="slide" />
+            <slidelink slideid="_player.6GVkeI4TRaV.6X7aRMcd3lw" displaytext="Drug Development and Pre-Clinical Research" expand="false" type="slide" />
+            <slidelink slideid="_player.6GVkeI4TRaV.6aVfbGuTzX8" displaytext="Investigational New Drug Application \ Clinical Trial Application" expand="false" type="slide" />
+            <slidelink slideid="_player.6GVkeI4TRaV.6WTnFZdcTQn" displaytext="Drug Development and Pre-Clinical Research" expand="false" type="slide" />
+            <slidelink slideid="_player.6GVkeI4TRaV.5VsKAK5Ipr6" displaytext="Investigational New Drug Application/ Clinical Trial Application" expand="false" type="slide" />
+            <slidelink slideid="_player.6GVkeI4TRaV.6auJM1cSZ8u" displaytext="Phases of Clinical Research" expand="false" type="slide" />
+            <slidelink slideid="_player.6GVkeI4TRaV.5nRNnyXjNW5" displaytext="Phases of Clinical Research" expand="false" type="slide" />
+            <slidelink slideid="_player.6GVkeI4TRaV.5VeCuEW3BFk" displaytext="Roles and Responsibilities in Clinical Research" expand="false" type="slide" />
+            <slidelink slideid="_player.6GVkeI4TRaV.62FVQvuwary" displaytext="Knowledge Check" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5j8P9P0Bxwz" displaytext="The Clinical Investigator" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5j8P9P0Bxwz.5w3WimGU24M" displaytext="The Clinical Investigator" expand="false" type="slide" />
+            <slidelink slideid="_player.5j8P9P0Bxwz.6PS4hjSvRSV" displaytext="What is the Clinical Research Coordinator?" expand="false" type="slide" />
+            <slidelink slideid="_player.5j8P9P0Bxwz.6CHgWq6AY9Y" displaytext="What is the Clinical Research Coordinator?" expand="false" type="slide" />
+            <slidelink slideid="_player.5j8P9P0Bxwz.6mk01aFe02o" displaytext="Responsibilities" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5fafciwBr4o" displaytext="Abbreviated GCP" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5fafciwBr4o.5VZX8m1CRrZ" displaytext="Abbreviated GCP" expand="false" type="slide" />
+            <slidelink slideid="_player.5fafciwBr4o.6YvVLn6HFCR" displaytext="Introduction to GCP" expand="false" type="slide" />
+            <slidelink slideid="_player.5fafciwBr4o.6hhFnBGH6NX" displaytext="Introduction to GCP" expand="false" type="slide" />
+            <slidelink slideid="_player.5fafciwBr4o.63UfIfsnWnc" displaytext="A Lesson in History…" expand="false" type="slide" />
+            <slidelink slideid="_player.5fafciwBr4o.6O6elkNdGck" displaytext="GCP Timeline" expand="false" type="slide" />
+            <slidelink slideid="_player.5fafciwBr4o.6EsswGAIfvB" displaytext="More on the ICH" expand="false" type="slide" />
+            <slidelink slideid="_player.5fafciwBr4o.6jDr4OTDJJ7" displaytext="More on the ICH" expand="false" type="slide" />
+            <slidelink slideid="_player.5fafciwBr4o.685L2UL4vVc" displaytext="Investigator Responsibilities" expand="false" type="slide" />
+            <slidelink slideid="_player.5fafciwBr4o.5je6FQCFy53" displaytext="Investigator Responsibilities" expand="false" type="slide" />
+            <slidelink slideid="_player.5fafciwBr4o.5pgzucCYYGN" displaytext="Sponsor Responsibilities" expand="false" type="slide" />
+            <slidelink slideid="_player.5fafciwBr4o.6TgsBh0aOPx" displaytext="Investigator Selection" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.60uGyU64llW" displaytext="Informed Consent" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.60uGyU64llW.6o4WuN52BA9" displaytext="Informed Consent" expand="false" type="slide" />
+            <slidelink slideid="_player.60uGyU64llW.5ck18j13Wbx" displaytext="Overview of Informed Consent" expand="false" type="slide" />
+            <slidelink slideid="_player.60uGyU64llW.5mPzZ18ENiq" displaytext="Overview of Informed Consent" expand="false" type="slide" />
+            <slidelink slideid="_player.60uGyU64llW.6VWHTzHfM30" displaytext="The Informed Consent Form" expand="false" type="slide" />
+            <slidelink slideid="_player.60uGyU64llW.6DNoJaDzVOB" displaytext="The Informed Consent Form" expand="false" type="slide" />
+            <slidelink slideid="_player.60uGyU64llW.6a4jasSg4tg" displaytext="Conducting the Informed Consent Discussion" expand="false" type="slide" />
+            <slidelink slideid="_player.60uGyU64llW.6M0EsOe0KLf" displaytext="Informed Consent Process" expand="false" type="slide" />
+            <slidelink slideid="_player.60uGyU64llW.6lYapaFwkKS" displaytext="Conducting the Informed Consent Discussion" expand="false" type="slide" />
+            <slidelink slideid="_player.60uGyU64llW.5jSSUubtT8T" displaytext="Conducting the Informed Consent Discussion" expand="false" type="slide" />
+            <slidelink slideid="_player.60uGyU64llW.60lgKgtavhH" displaytext="Conducting the Informed Consent Discussion" expand="false" type="slide" />
+            <slidelink slideid="_player.60uGyU64llW.66AbPcyqg1S" displaytext="Informed Consent of Vulnerable Populations" expand="false" type="slide" />
+            <slidelink slideid="_player.60uGyU64llW.6MPM9wAwXyW" displaytext="Emergency Medical Situations" expand="false" type="slide" />
+            <slidelink slideid="_player.60uGyU64llW.6E4Nr67ZYig" displaytext="Knowledge Check" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5y0kxl0zVSF" displaytext="Clinical Trial Protocols" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5y0kxl0zVSF.5ht3QgV8jQU" displaytext="Clinical Trial Protocols" expand="false" type="slide" />
+            <slidelink slideid="_player.5y0kxl0zVSF.6KqXjENTTB5" displaytext="What is a Clinical Trial Protocol?" expand="false" type="slide" />
+            <slidelink slideid="_player.5y0kxl0zVSF.5bb7ATFfnbm" displaytext="What is a Clinical Trial Protocol?" expand="false" type="slide" />
+            <slidelink slideid="_player.5y0kxl0zVSF.6NrWnPXXipH" displaytext="What is a Clinical Trial Protocol?" expand="false" type="slide" />
+            <slidelink slideid="_player.5y0kxl0zVSF.68Vwzo6iyiW" displaytext="Clinical Trial Protocol Example" expand="false" type="slide" />
+            <slidelink slideid="_player.5y0kxl0zVSF.6YjH0UK6YEw" displaytext="Knowledge Check" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5m50Ubaiw1X" displaytext="Clinical Trial Study Start-Up and Initiation	" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5m50Ubaiw1X.6ZTQoDM7UMb" displaytext="Clinical Trial Study Start-Up and Initiation" expand="false" type="slide" />
+            <slidelink slideid="_player.5m50Ubaiw1X.64TrDhPHoEY" displaytext="Overview" expand="false" type="slide" />
+            <slidelink slideid="_player.5m50Ubaiw1X.5XWu5bDi82P" displaytext="Feasibility Assessment" expand="false" type="slide" />
+            <slidelink slideid="_player.5m50Ubaiw1X.6dgn1iw4zML" displaytext="Feasibility Assessment" expand="false" type="slide" />
+            <slidelink slideid="_player.5m50Ubaiw1X.5wmjWIpN7Ex" displaytext="Feasibility Assessment" expand="false" type="slide" />
+            <slidelink slideid="_player.5m50Ubaiw1X.6SVa57NLgfQ" displaytext="Ethics Approval" expand="false" type="slide" />
+            <slidelink slideid="_player.5m50Ubaiw1X.61yKP5eDNYH" displaytext="Ethics Approval" expand="false" type="slide" />
+            <slidelink slideid="_player.5m50Ubaiw1X.5gkaNz04V4k" displaytext="Site Initiation Visit" expand="false" type="slide" />
+            <slidelink slideid="_player.5m50Ubaiw1X.6DzC5GiVGVb" displaytext="Knowledge Check" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5uAHdQGpYkE" displaytext="Study Conduct" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5uAHdQGpYkE.5hHekAST9Oa" displaytext="Study Conduct" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAHdQGpYkE.5clYNZWUIod" displaytext="Subject Recruitment and Screening" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAHdQGpYkE.6YD4vzkXlbf" displaytext="Subject Recruitment and Screening" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAHdQGpYkE.69VlOroy5pL" displaytext="Subject Recruitment and Screening" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAHdQGpYkE.6SBsgboKeqh" displaytext="Subject Recruitment and Screening" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAHdQGpYkE.5Wt2iNcIhpp" displaytext="Enrollment and Randomization" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAHdQGpYkE.5x7oEdN5e69" displaytext="Enrollment and Randomization" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAHdQGpYkE.5nBsQVAWHk6" displaytext="Baseline Assessments and Activities" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAHdQGpYkE.5Uz6XldeNQt" displaytext="Ongoing Protocol Required Assessments and Study Visits" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAHdQGpYkE.6jJn3f4Ip2E" displaytext="Subject Compliance" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAHdQGpYkE.6FRp2I7hu0I" displaytext="Subject Compliance" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAHdQGpYkE.60BomFtcMJx" displaytext="Subject Retention and Early Termination" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAHdQGpYkE.5a4crJA8L6V" displaytext="Subject Retention and Early Termination" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAHdQGpYkE.6JwIQinFgR5" displaytext="End of Study Visits" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAHdQGpYkE.5fWkehxkATP" displaytext="Investigational Product Accountability" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAHdQGpYkE.6fBTx7rgHbR" displaytext="Investigational Product Accountability" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAHdQGpYkE.6HkzrUPnjBa" displaytext="Knowledge Check" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.695C5oONVoh" displaytext="Investigator Site Files/Essential Documents " expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.695C5oONVoh.5cLn9yTWSc1" displaytext="Investigator Site Files/Essential Documents" expand="false" type="slide" />
+            <slidelink slideid="_player.695C5oONVoh.6F9UL0moBbY" displaytext="Contents/Required Documentation" expand="false" type="slide" />
+            <slidelink slideid="_player.695C5oONVoh.6EKiob9yUgL" displaytext="Regulatory Binder" expand="false" type="slide" />
+            <slidelink slideid="_player.695C5oONVoh.6oZKsRdEFnS" displaytext="Regulatory Binder" expand="false" type="slide" />
+            <slidelink slideid="_player.695C5oONVoh.5pznQWBcAeq" displaytext="Table of Contents" expand="false" type="slide" />
+            <slidelink slideid="_player.695C5oONVoh.62s9M8BmxAj" displaytext="Maintenance" expand="false" type="slide" />
+            <slidelink slideid="_player.695C5oONVoh.6qURa91ezo2" displaytext="Training and Qualifications" expand="false" type="slide" />
+            <slidelink slideid="_player.695C5oONVoh.6DlDu3cGqPq" displaytext="Training and Qualifications" expand="false" type="slide" />
+            <slidelink slideid="_player.695C5oONVoh.5fcfU7LtPtz" displaytext="IRB" expand="false" type="slide" />
+            <slidelink slideid="_player.695C5oONVoh.6GdSXPNDwrh" displaytext="Safety Reporting and Investigational Product" expand="false" type="slide" />
+            <slidelink slideid="_player.695C5oONVoh.5cNDUNV9ocD" displaytext="Monitoring and Subject Logs" expand="false" type="slide" />
+            <slidelink slideid="_player.695C5oONVoh.5XTIPKBNHdU" displaytext="Correspondence" expand="false" type="slide" />
+            <slidelink slideid="_player.695C5oONVoh.5WqQjxTNVlg" displaytext="Knowledge Check" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5uvUDvExnhg" displaytext="Data Management, Source Documentation and Case Report Forms" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5uvUDvExnhg.5ipCDEjn7py" displaytext="Data Management, Source Documentation and Case Report Forms" expand="false" type="slide" />
+            <slidelink slideid="_player.5uvUDvExnhg.5VILZ1s1cAG" displaytext="Data Process Overview" expand="false" type="slide" />
+            <slidelink slideid="_player.5uvUDvExnhg.6IBry0VWKXe" displaytext="Source Documentation" expand="false" type="slide" />
+            <slidelink slideid="_player.5uvUDvExnhg.6PAFNXw4qOB" displaytext="Source Document Worksheets" expand="false" type="slide" />
+            <slidelink slideid="_player.5uvUDvExnhg.6S9p83vFdYF" displaytext="Source Documentation Best Practices" expand="false" type="slide" />
+            <slidelink slideid="_player.5uvUDvExnhg.6ZBPZyEhm2b" displaytext="Source Documentation Best Practices" expand="false" type="slide" />
+            <slidelink slideid="_player.5uvUDvExnhg.6Z21Itx8wdL" displaytext="Editing and Correcting Source" expand="false" type="slide" />
+            <slidelink slideid="_player.5uvUDvExnhg.5z9HOVrDU4Z" displaytext="Case Report Forms (CRFs)" expand="false" type="slide" />
+            <slidelink slideid="_player.5uvUDvExnhg.5kzSDEvOJtQ" displaytext="Queries" expand="false" type="slide" />
+            <slidelink slideid="_player.5uvUDvExnhg.6ITV4dV12iI" displaytext="Knowledge Check" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5oC5LPJZ5ml" displaytext="Adverse Events, Safety Monitoring and Safety Reporting" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5oC5LPJZ5ml.6jFzWL0cifE" displaytext="Adverse Events, Safety Monitoring and Safety Reporting" expand="false" type="slide" />
+            <slidelink slideid="_player.5oC5LPJZ5ml.61Ph51CHifs" displaytext="Definitions" expand="false" type="slide" />
+            <slidelink slideid="_player.5oC5LPJZ5ml.5ks8LDOmojo" displaytext="Adverse Drug Reaction" expand="false" type="slide" />
+            <slidelink slideid="_player.5oC5LPJZ5ml.63jPEcUDNK4" displaytext="Sources of Adverse Events" expand="false" type="slide" />
+            <slidelink slideid="_player.5oC5LPJZ5ml.6Hfh0ov4PkZ" displaytext="Pregnancy and Exposure in Utero" expand="false" type="slide" />
+            <slidelink slideid="_player.5oC5LPJZ5ml.5o5UG1IB0Xx" displaytext="Documentation in Source and Case Report Forms" expand="false" type="slide" />
+            <slidelink slideid="_player.5oC5LPJZ5ml.5woNKWChPeA" displaytext="Documentation in Source and Case Report Forms" expand="false" type="slide" />
+            <slidelink slideid="_player.5oC5LPJZ5ml.6045pOAU7Lv" displaytext="Determining Relatedness" expand="false" type="slide" />
+            <slidelink slideid="_player.5oC5LPJZ5ml.5YjKaB7i4j4" displaytext="Coding Adverse Events- MeDRA and CTCAE" expand="false" type="slide" />
+            <slidelink slideid="_player.5oC5LPJZ5ml.5rpo409vtX7" displaytext="Coding Adverse Events- MeDRA and CTCAE" expand="false" type="slide" />
+            <slidelink slideid="_player.5oC5LPJZ5ml.6RXbrDOk8ZV" displaytext="Investigator and Sponsor Reporting Requirements" expand="false" type="slide" />
+            <slidelink slideid="_player.5oC5LPJZ5ml.62o720vVwcL" displaytext="Data Safety Monitoring Boards" expand="false" type="slide" />
+            <slidelink slideid="_player.5oC5LPJZ5ml.6OtjNxahNnr" displaytext="Common Errors in Safety Reporting" expand="false" type="slide" />
+            <slidelink slideid="_player.5oC5LPJZ5ml.6oKJtEwGtst" displaytext="Common Errors in Safety Reporting" expand="false" type="slide" />
+            <slidelink slideid="_player.5oC5LPJZ5ml.6kaKSUDZJN6" displaytext="Knowledge Check" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6QdfJJUGm2m" displaytext="Study Closure" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6QdfJJUGm2m.5j0qKoVDC2i" displaytext="Study Closure" expand="false" type="slide" />
+            <slidelink slideid="_player.6QdfJJUGm2m.6q9BhgCLUFt" displaytext="Early Termination or Completion of Enrollment" expand="false" type="slide" />
+            <slidelink slideid="_player.6QdfJJUGm2m.6imypCgs3JB" displaytext="Closure Procedure" expand="false" type="slide" />
+            <slidelink slideid="_player.6QdfJJUGm2m.6cZj07iJcXj" displaytext="Record Retention" expand="false" type="slide" />
+            <slidelink slideid="_player.6QdfJJUGm2m.6hfnVz9qFSH" displaytext="Knowledge Check" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6qJySgwN3fQ" displaytext="Final Test" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6qJySgwN3fQ.5dElV8Okpl4" displaytext="FINAL TEST" expand="false" type="slide" />
+            <slidelink slideid="_player.6qJySgwN3fQ.6ngvlajNcEM" displaytext="Final Test" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="story_content/external_files/ICF Example.pdf" image="story_content/6MBhfV6pr65.png" title="Informed Consent Example" />
+      <resource url="story_content/external_files/Informed Consent Checklist.pdf" image="story_content/5wUb9LBbg85.png" title="Informed Consent Checklist" />
+      <resource url="story_content/external_files/advantage-clinical-training-sc-early-protocol-final-20160406_002.pdf" image="story_content/6k4xTvyV03X.png" title="Clinical Trial Protocol Example" />
+      <resource url="story_content/external_files/Early Cost Budget.pdf" image="story_content/6m1Ko47wtQH.png" title="Early Cost Budget" />
+      <resource url="story_content/external_files/Early Charge Budget.pdf" image="story_content/6gBe33UGg1c.png" title="Early Charge Budget" />
+      <resource url="story_content/external_files/Contingent Reimbursement, Startup, and Closeout Fees.pdf" image="story_content/6Bh96pGusmZ.png" title="Contingent Reimbursement, Startup, and Closeout Fees" />
+      <resource url="story_content/external_files/Medical-Surgery History.pdf" image="story_content/6na7SVSOMBL.png" title="Medical-Surgery History" />
+      <resource url="story_content/external_files/Concomitant Medication Log.pdf" image="story_content/5gElmH6Wv4R.png" title="Concomitant Medication Log" />
+      <resource url="story_content/external_files/Early Visit Calculator Worksheet.xlsx" image="story_content/5ZPAiN9jtX6.png" title="Early Visit Calculator Worksheet" />
+      <resource url="story_content/external_files/Protocol Deviation Report Template.pdf" image="story_content/5ohc4nftG1C.png" title="Protocol Deviation Report Template" />
+      <resource url="story_content/external_files/Protocol Deviation Report Example.pdf" image="story_content/6ba9c9djTme.png" title="Protocol Deviation Report Example" />
+      <resource url="story_content/external_files/Common Terminology Criteria for Adverse Events (CTCAE).pdf" image="story_content/6AvWaFaPjWA.png" title="Common Terminology Criteria for Adverse Events (CTCAE)" />
+      <resource url="story_content/external_files/Serious Adverse Event Report Form.pdf" image="story_content/5XLWQpH1VhU.png" title="Serious Adverse Event Report Form" />
+      <resource url="story_content/external_files/Clinical Trial Protocol Example.pdf" image="story_content/5t6Jf1MBnhm.png" title="Clinical Trial Protocol Example" />
+      <resource url="story_content/external_files/Dear Dr. Letter.pdf" image="story_content/5oCbgpsaXRW.png" title="Dear Dr. Letter" />
+    </resources>
+  </resource_data>
+  <transcript_data />
+  <glossary_data>
+    <terms>
+      <term title="Adverse Event">Any untoward medical occurrence in a subject administered an investigational therapeutic and which does not necessarily have a causal relationship with this therapeutic. </term>
+      <term title="AE">Adverse Event; Any untoward medical occurrence in a subject administered an investigational product and which does not necessarily have a causal relationship with the treatment. </term>
+      <term title="ALCOA">Attributable, Legible, Contemporaneous, Original and Accurate.  A standard for documentation.</term>
+      <term title="ALCOAC">Attributable, Legible, Contemporaneous, Original, Accurate and Complete. A standard for documentation in records and reports. </term>
+      <term title="Assent">"Assent" is a term used to express willingness to participate in research by persons who are by definition too young to give informed consent but who are old enough to understand the proposed research in general, its expected risks and possible benefits, and the activities expected of them as subjects. </term>
+      <term title="Audit Certificate">If an audit is conducted by a regulatory body, a sponsor, IRB, or third party, a certificate will be issued outlining that the audit was performed. Audit findings are not appended to this certificate. </term>
+      <term title="Audit Trail">A record of the changes that have been made to a database, file or source document. </term>
+      <term title="Bias">Systematic prejudice in favor of, or against, one thing, person, or group compared with another, usually in a way considered to be unfair.</term>
+      <term title="Biostatistician">An expert in the statistical processes and methods applied to the collection, analysis, and interpretation of biological data and especially data relating to human biology, health, and medicine</term>
+      <term title="Blinded">Someone who does not know the treatment allocation of the subject</term>
+      <term title="Blinding ">Blinding refers to the concealment of treatment allocation from one or more individuals (doctor, patient, sponsor etc) involved in a clinical research trial. </term>
+      <term title="Case Report Form (CRF)">A case report form (or CRF) is a paper or electronic questionnaire used in clinical research. The Case Report Form is the tool used by the sponsor of the clinical trial to collect data from each participating site.</term>
+      <term title="CDA">A confidentiality agreement, or CDA, is a document used by sponsors to ensure that any protocol, study or investigational information communication to an investigator or vendor remains confidential. Drug development is no stranger to corporate espionage and this the sponsors way of mitigating this. If you sign a CDA you are legally bound to not discuss the trial or IP outside of the parties listed on the CDA. </term>
+      <term title="Central IRB">Central IRBs, also known as independent IRBs, are not affiliated with any particular institution and serve a wider group of researchers. Physicians conducting research at their private practice or at an institution which does not have an IRB, may utilize central IRBs for research review and approval.  </term>
+      <term title="Central Lab">Some trials will use a central lab to analyze samples. This will involve collecting the sample (i.e blood) and shipping to the study's lab for analysis. These results are then reported back as study data. Central labs help sponsors to ensure consistency across reported data. </term>
+      <term title="Centralized Monitoring">Remote monitoring and data analytics</term>
+      <term title="Certified Copy">A copy of the original record that has been verified (ie by a dated signature or by a validated process) to have the same information, including that  describe the context, content and structure, as the original. </term>
+      <term title="Charge Budget">The Charge Budget is what will be charged to the sponsor for your participation in the clinical trial. This budget includes your costs plus profit margins. </term>
+      <term title="Clinical Study Report (CSR)">A Clinical Study Report (CSR) is a detailed document, prepared by the sponsor, detailing the methods and results of the trial. This document will address at minimum the safety and efficacy observations of the trial. </term>
+      <term title="Compliance">Refers to the amount of drug/therapeutic taken compared to the amount prescribed (2 pills per day taken vs. 3 pills per day prescribed. </term>
+      <term title="Concomitant Medications">Concomitant medication refers to any medication that the subject is taking in addition to the investigational product. </term>
+      <term title="Confidentiality Agreement">A confidentiality agreement, or CDA, is a document used by sponsors to ensure that any protocol, study or investigational information communication to an investigator or vendor remains confidential. Drug development is no stranger to corporate espionage and this the sponsors way of mitigating this. If you sign a CDA you are legally bound to not discuss the trial or IP outside of the parties listed on the CDA. </term>
+      <term title="Continuing Review">The IRB  has a responsibility to conduct continuing reviews of each ongoing trial at intervals appropriate to the degree of risk to human subjects. This must occur, per GCP, at least once per year.</term>
+      <term title="Contract Research Organization">A contract research organization (CRO) is an organization that provides support to the pharmaceutical, biotechnology, and medical device industries in the form of research services outsourced on a contract basis.</term>
+      <term title="Conventional Study Design">Clinical studies of a fixed sample size that do not use adaptive trial design elements.</term>
+      <term title="Cost Budget">The Cost Budget is the reflection of the costs that you and your institution/clinic will incur for running the clinical trial. </term>
+      <term title="CRA">Clinical Research Associate. A sponsor representative tasked with monitoring the clinical trial. </term>
+      <term title="CRC">Clinical Research Coordinator</term>
+      <term title="CRF">A case report form (or CRF) is a paper or electronic questionnaire used in clinical research. The Case Report Form is the tool used by the sponsor of the clinical trial to collect data from each participating site.</term>
+      <term title="CV">A curriculum vitae (CV) is a written overview of a person's experience and other qualifications. Analogous to a "resume".</term>
+      <term title="Data Analytics">Trial data is analyzed as a conglomerate and compared against patient and site level data to identify outliers</term>
+      <term title="Double Blind">Any information that may influence the behavior of the PI/Coordinator or the subject is withheld until after the test.</term>
+      <term title="DSMB">A data safety monitoring board (DSMB) — is an independent group of experts who monitor patient safety and treatment efficacy data while a clinical trial is ongoing.</term>
+      <term title="Efficacy">The ability to produce a desired or intended result.</term>
+      <term title="Eligible Subject">An eligible subject is one who meets all of the inclusion and exclusion criteria as outlined in the protocol.
+</term>
+      <term title="EMR">Electronic Medical Records</term>
+      <term title="Essential Documents">Essential Documents are those documents which individually and collectively permit evaluation of the conduct of a trial and the quality of the data produced. These documents serve to demonstrate the compliance of the investigator, sponsor and monitor with the standards of Good Clinical Practice and with all applicable regulatory requirements. </term>
+      <term title="Ethics Board">"An Institutional Review Board (IRB) or Independent Ethics Committee (IEC) is a committee established to review and approve research involving human subjects.The primary function of these committees is to protect the rights, safety and well being of trial participants. All clinical research undertaken on human subjects must be reviewed and approved by an IRB per Good Clinical Practices (GCP). 
+"</term>
+      <term title="Ethics Committee">"An Institutional Review Board (IRB) or Independent Ethics Committee (IEC) is a committee established to review and approve research involving human subjects.The primary function of these committees is to protect the rights, safety and well being of trial participants. All clinical research undertaken on human subjects must be reviewed and approved by an IRB per Good Clinical Practices (GCP). 
+"</term>
+      <term title="Exclusion Criteria">Exclusion criteria are those characteristics that disqualify prospective subjects from inclusion in the study.</term>
+      <term title="FDA">United States Food and Drug Administration (FDA) is charged with the approval of therapeutics to be marketed to the general public in the United States. </term>
+      <term title="Financial Agreements">These clearly outlined the agreement reached between the sponsor and the investigator. The financial agreements may be buried within a Clinical Study Agreement (CSA)</term>
+      <term title="GCP">Good Clinical Practice (GCP) is defined as a standard for the design, conduct, performance, monitoring, auditing, recording, analysis and reporting of clinical trials or studies</term>
+      <term title="GMP">Good Manufacturing Practices (GMP) is a system for ensuring that products are consistently produced and controlled according to quality standards. It is designed to minimize the risks involved in any pharmaceutical production that cannot be eliminated through testing the final product.</term>
+      <term title="Good Clinical Practice">Good Clinical Practice (GCP) is defined as a standard for the design, conduct, performance, monitoring, auditing, recording, analysis and reporting of clinical trials or studies</term>
+      <term title="IB">The Investigator's Brochure (IB) is a comprehensive document summarizing the body of information about an investigational product ("IP" or "study drug") obtained during a drug trial.</term>
+      <term title="ICF">The Informed Consent Form (ICF) is a paper, though occasionally electronic, document which document's a patient's consent to participate in a clinical trial. This document is specific to each clinical trial and is written in lay-language to a patient understand what they are consenting to. This document must be approved by a local ethics board prior to being presented to a patient. Typically the patient and a study staff member will sign. </term>
+      <term title="IEC">"An Institutional Review Board (IRB) or Independent Ethics Committee (IEC) is a committee established to review and approve research involving human subjects.The primary function of these committees is to protect the rights, safety and well being of trial participants. All clinical research undertaken on human subjects must be reviewed and approved by an IRB per Good Clinical Practices (GCP). 
+"</term>
+      <term title="Inclusion Criteria">Inclusion criteria are characteristics that the prospective subjects must have if they are to be included in the study,
+</term>
+      <term title="Informed Consent Form">The Informed Consent Form (ICF) is a paper, though occasionally electronic, document which document's a patient's consent to participate in a clinical trial. This document is specific to each clinical trial and is written in lay-language to a patient understand what they are consenting to. This document must be approved by a local ethics board prior to being presented to a patient. Typically the patient and a study staff member will sign. </term>
+      <term title="Insurance Statement">The insurance statement documents that compensation is available to subjects who experience trial related injury. This document is not a requirement in all ICH-GCP areas. </term>
+      <term title="Investigational Product">Investigation product refers to the therapeutic under study in the clinical trial. This is a non-approved drug or medical device. </term>
+      <term title="Investigator Brochure">The Investigator's Brochure (IB) is a comprehensive document summarizing the body of information about an investigational product ("IP" or "study drug") obtained during a drugs lifetime of development and research. </term>
+      <term title="Investigator Site File">The Investigator Site File (ISF) is the compilation of documents which individually and collectively permit evaluation of the conduct of a clinical trial and the quality of the data produced at a site. These documents serve to demonstrate the compliance of the investigator, sponsor, and monitor with the standards of GCP and with all applicable regulatory requirements</term>
+      <term title="IP">Investigation product refers to the therapeutic under study in the clinical trial. This is a non-approved drug or medical device. </term>
+      <term title="IRB">"An Institutional Review Board (IRB) or Independent Ethics Committee (IEC) is a committee established to review and approve research involving human subjects.The primary function of these committees is to protect the rights, safety and well being of trial participants. All clinical research undertaken on human subjects must be reviewed and approved by an IRB per Good Clinical Practices (GCP). 
+"</term>
+      <term title="ISF">The Investigator Site File (ISF) is the compilation of documents which individually and collectively permit evaluation of the conduct of a clinical trial and the quality of the data produced at a site. These documents serve to demonstrate the compliance of the investigator, sponsor, and monitor with the standards of GCP and with all applicable regulatory requirements</term>
+      <term title="Local Laboratory">Some trials will use the site's local laboratory to analyze specimens. This could be the lab in your hospital who will analyze a blood sample for CBC and report back to you the results. These are then submitted in turn as study data. </term>
+      <term title="Monitoring">The act of overseeing the progress of a clinical study, and of ensuring that it is conducted, recorded, and reported in accordance with the protocol, SOPs, GCP and applicable regulatory requirement(s). </term>
+      <term title="Monitoring Plan">A document that describes the strategy, methods, responsibilities and requirements for monitoring the trial. </term>
+      <term title="Multi-Center Trials">Multi-center trials are those which are conducted at more than one hospital/clinic. </term>
+      <term title="Non-clinical">Non-Clinical studies refer to those conducted in animals and laboratory settings. Non-human testing. </term>
+      <term title="Package Insert">A package insert is a document provided along with a prescription or over-the-counter medication to provide additional information about that drug.</term>
+      <term title="Pharmacodynamics">The branch of pharmacology concerned with the effects of drugs and the mechanism of their action.</term>
+      <term title="Pharmacokinetics">The branch of pharmacology concerned with the movement of drugs within the body.
+</term>
+      <term title="Phlebotomy">Phlebotomy is the practice of drawing blood from patients</term>
+      <term title="PI">Principal Investigator (PI), or investigator, is the person who takes ultimate responsibility for the conduct of a clinical trial and the medical care of subjects enrolled in the particular research protocol at a clinical trial site. Qualified physician or dentist. </term>
+      <term title="Placebo">A harmless pill, medicine, or procedure prescribed more for the psychological benefit to the patient than for any physiological effect.</term>
+      <term title="Primary Objective">The Primary objective is the primary purpose for conducting the study. This is generally to evaluate either the safety or efficacy  of the investigational product. </term>
+      <term title="Principal Investigator">Principal Investigator (PI), or investigator, is the person who takes ultimate responsibility for the conduct of a clinical trial and the medical care of subjects enrolled in the particular research protocol at a clinical trial site. Qualified physician or dentist. </term>
+      <term title="Protocol">A clinical trial protocol is a comprehensive document prepared by the sponsor which outlines how the trial will be conducted. Including; background, purpose, investigational product, study procedures/assessments and timelines.</term>
+      <term title="Protocol Deviation">Any instance where the protocol procedures are not followed verbatim, is a protocol deviation. This must be reported to the sponsor and IRB.</term>
+      <term title="PRS">Patient Recruitment Specialist</term>
+      <term title="QA">All of the planned and systemic actions that are established to ensure that the trial is performed and data are generated, documented (recorded), and reported in compliance with GCP and the applicable regulatory requirements.</term>
+      <term title="QC">The operational techniques and activities undertaken within the quality assurance system to verify that the requirements for quality of the trial-related activities are fulfilled. </term>
+      <term title="Quality Assurance">All of the planned and systemic actions that are established to ensure that the trial is performed and data are generated, documented (recorded), and reported in compliance with GCP and the applicable regulatory requirements</term>
+      <term title="Quality Control">The operational techniques and activities undertaken within the quality assurance system to verify that the requirements for quality of the trial-related activities are fulfilled. </term>
+      <term title="Query">The purpose of a query is to alert you to a data value and ask you to confirm whether or not it is correct.</term>
+      <term title="Randomization">In randomized controlled trials, the research participants are assigned by chance, rather than by choice, to either the experimental group or the control group. Randomization reduces bias as much as possible. Randomization is designed to "control" (reduce or eliminate if possible) bias by all means. Imagine flipping a coin, Treatment A vs Treatment B. </term>
+      <term title="Randomized Not Treated">Subjects who are randomized into the clinical trial though are not treated with the investigation product per protocol. </term>
+      <term title="Regulatory Bodies">Regulatory bodies or regulatory agencies are those which are tasked with the approval of therapeutics in a given jurisdiction. I. E Food and Drug Administration in the USA and Health Canada in Canada.</term>
+      <term title="Remote Monitoring">Monitors remotely review case report forms and possibly source documentation to complete the required source data verification.</term>
+      <term title="ROPI">The Report on Prior Investigations (ROPI) is analogous to an investigators brochure. The Investigator's Brochure (IB) is a comprehensive document summarizing the body of information about an investigational product ("IP" or "study drug") obtained during a drug trial.</term>
+      <term title="SAE">A serious adverse event (SAE) in clinical trials is defined as any untoward medical occurrence that at any dose results in death, is life-threatening, requires inpatient hospitalization or causes prolongation of existing hospitalization, results in persistent or significant disabiliyt/incapacity, is a congenital anomaly/birth defect, or requires intervention to prevent permanent impairment or damage.</term>
+      <term title="Sample Size">Sample size refers to the number of subjects required to be enrolled in a clinical trial in order to meet the primary objective. </term>
+      <term title="SC">Study Coordinator aka Clinical Research Coordinator</term>
+      <term title="Secondary Objectives">Secondary objectives are those whose completion, although desirable, will not directly impact the overall trial. These will often be posited to answer scientific questions about the disease state, to glean safety of efficacy data in sub populations etc.. </term>
+      <term title="Selection Criteria">"Selection criteria are those criteria outlined in the protocol which determine which patients are eligible for participation. These consist of the inclusion and the exclusion criteria. If a subject does not meet all of the inclusion and none of the exclusion criteria in the protocol he or she is not eligible to participate. These selection criteria are in place to ensure the safety of patients as well as the scientific integrity of the study 
+"</term>
+      <term title="Sequela">A condition that is the consequence of a previous disease or injury.</term>
+      <term title="Sequelae">A condition that is the consequence of a previous disease or injury (ie a scar)</term>
+      <term title="Serious Adverse Event">A serious adverse event (SAE) in clinical trials is defined as any untoward medical occurrence that at any dose 
+
+results in death,
+is life-threatening
+requires inpatient hospitalization or causes prolongation of existing hospitalization
+results in persistent or significant disability/incapacity,
+is a congenital anomaly/birth defect, or
+requires intervention to prevent permanent impairment or damage</term>
+      <term title="Site Qualification">The process of a sponsor assessing whether or not a clinical trial site has the capacity and capabilities to successfully run their protocol. </term>
+      <term title="SOP">A Standard operating procedure, or SOP, is a set of step-by-step instructions compiled by an organisation to help workers carry out routine operations. </term>
+      <term title="Source Data Verification">Source data verification involves reviewing the data submitted on the case report forms to the data available at the site in the source documentation, and vice versa.</term>
+      <term title="Source Document">A source document is a document in which data collected for a clinical trial is first recorded. These data are usually later entered in the case report form. The ICH-GCP guidelines define source documents as original documents, data, and records.</term>
+      <term title="Source Documentation">A source document is a document in which data collected for a clinical trial is first recorded. These data are usually later entered in the case report form. </term>
+      <term title="Source Documents">A source document is the original record containing the details to substantiate an interaction with a patient. </term>
+      <term title="Sponsor">A sponsor is an individual, company, institution or organisation which takes responsibility for the initiation, management and/or financing of a clinical trial.</term>
+      <term title="Standard Operating Procedure">A Standard operating procedure, or SOP, is a set of step-by-step instructions compiled by an organisation to help workers carry out routine operations. </term>
+      <term title="Subject Enrollment Log">The subject enrollment log identifies subjects enrolled in the clinical trial. This log will enable identification of the subject in the source documents via the subject’s trial assigned identifier. This will also be used to track and follow a subject through their participation in the clinical trial. </term>
+      <term title="TMF">Trial Master File. Compilation of all documents which individually and collectively permit the evaluation of the conduct of the study, </term>
+      <term title="Trial Supplies">Clinical trial supplies includes such things as case report form binders, laboratory kits, equipment ( blood pressure monitor, ECG etc). </term>
+      <term title="Validation of Computerized Systems">A process of establishing and documenting that the specified requirements of a computerized system can be consistently fulfilled. </term>
+    </terms>
+  </glossary_data>
+</bwFrame>

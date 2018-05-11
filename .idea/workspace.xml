@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1dea2446-c30b-466e-95a3-66858ce93a0c" name="Default" comment="" />
+    <ignored path="Live CCTClient.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Live CCTClient" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="users.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/sales/users.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="105" column="21" selection-start="4919" selection-end="4919" vertical-scroll-proportion="-7.8461537" vertical-offset="1581" max-vertical-offset="4165">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="0" selection-start="537" selection-end="537" vertical-scroll-proportion="0.46477392" vertical-offset="0" max-vertical-offset="951">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="opentrials.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/users/opentrials.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="0" selection-start="1810" selection-end="1810" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1071">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConversationController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ConversationController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClinicsController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ClinicsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3604">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrialsController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/TrialsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="294" column="9" selection-start="10816" selection-end="10816" vertical-scroll-proportion="0.0" vertical-offset="4998" max-vertical-offset="7429">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SalesManager/AccountController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2006">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrailsController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SalesManager/TrailsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountsController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AccountsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="23" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.0" vertical-offset="1666" max-vertical-offset="13294">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trials.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/trials.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="20" selection-start="1303" selection-end="1701" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="7242">
+              <folding>
+                <marker date="1525913872238" expanded="false" signature="11391:11402" placeholder="..." />
+                <marker date="1525913872238" expanded="false" signature="17875:17886" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/resources/views/clinic-admin/users.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/users/user-edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Sales/ClinicsController.php" />
+        <option value="$PROJECT_DIR$/app/Specialization.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/trials-edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/MessagesController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/application-single.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/UsersController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SalesManager/UsersController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Sales/UsersController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ClinicController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ReferralsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/referrals-edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/referrals.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/users/apply.blade.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/app/Clinic.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/resources/views/sales/clinics.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Routes/sales-rep.php" />
+        <option value="$PROJECT_DIR$/resources/views/sales/opentrials.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Sales/SpecializationsController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ApplicationsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/new-applications.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/waitlist-applications.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/sales/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/sales/user.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/users/single-trial.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ApplicationsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/processed-applications.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/applications.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/all-applications.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/user-profile.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/clinic-admin/user.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/users/referral-application.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/users/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Routes/users.php" />
+        <option value="$PROJECT_DIR$/resources/views/users/closedtrials.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/users/opentrials.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Routes/admin.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/MessagesController.php" />
+        <option value="$PROJECT_DIR$/resources/views/users/messages.blade.php" />
+        <option value="$PROJECT_DIR$/app/Functions/helper.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Sales/SalesController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/trials.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/TrialsController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AccountsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/sales/users.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Live CCTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Live CCTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CCTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="preferences.sourceCode" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NonSSD Files\Live CCTClient\resources\views\users" />
+      <recent name="D:\NonSSD Files\Live CCTClient\app\Http\Controllers\Sales" />
+      <recent name="D:\NonSSD Files\Live CCTClient\resources\views\sales" />
+      <recent name="D:\NonSSD Files\Live CCTClient\app" />
+      <recent name="D:\NonSSD Files\Live CCTClient\resources\views\sales-manager" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="7197424a-7b3d-4ec9-91f0-9f3ba5f316c9" server_name="Live CCTClient">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1dea2446-c30b-466e-95a3-66858ce93a0c" name="Default" comment="" />
+      <created>1520015439958</created>
+      <updated>1520015439958</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23909657" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24866879" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17911041" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.225973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30110496" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Http/Routes/sales-rep.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="48" selection-start="358" selection-end="358" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="595" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Sales/SpecializationsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="46" selection-start="1756" selection-end="1756" vertical-scroll-proportion="-35.307693" vertical-offset="0" max-vertical-offset="1071" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/new-applications.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="45" selection-start="735" selection-end="768" vertical-scroll-proportion="-8.5" vertical-offset="102" max-vertical-offset="1241" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/waitlist-applications.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="12" selection-start="1557" selection-end="1590" vertical-scroll-proportion="-14.384615" vertical-offset="289" max-vertical-offset="1105" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/sales/clinics.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="60" selection-start="538" selection-end="538" vertical-scroll-proportion="61.807693" vertical-offset="1845" max-vertical-offset="2822" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/sales/user-edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AccountsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="66" selection-start="386" selection-end="1199" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="1581" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Sales/AccountController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="44.384617" vertical-offset="1154" max-vertical-offset="1819" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/sales/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="45" selection-start="2194" selection-end="2194" vertical-scroll-proportion="-16.346153" vertical-offset="255" max-vertical-offset="2363" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AwardedController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/users/apply.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="0" selection-start="2741" selection-end="2741" vertical-scroll-proportion="1.9329447" vertical-offset="102" max-vertical-offset="2159" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/users/single-trial.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="74" selection-start="875" selection-end="875" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="4131" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApplicationsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="16" selection-start="411" selection-end="452" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="2941" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/processed-applications.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="17" selection-start="1610" selection-end="1610" vertical-scroll-proportion="-17.653847" vertical-offset="289" max-vertical-offset="1360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/all-applications.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="37" selection-start="1360" selection-end="1360" vertical-scroll-proportion="-15.615385" vertical-offset="223" max-vertical-offset="1071" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/application-single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="181" column="9" selection-start="7732" selection-end="7732" vertical-scroll-proportion="-9.115385" vertical-offset="2840" max-vertical-offset="5015" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/applications.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="21" selection-start="631" selection-end="631" vertical-scroll-proportion="-8.769231" vertical-offset="129" max-vertical-offset="1071" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/awarded.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="31" selection-start="2119" selection-end="2119" vertical-scroll-proportion="0.0" vertical-offset="919" max-vertical-offset="1819" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/user-profile.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="164" column="36" selection-start="5098" selection-end="5098" vertical-scroll-proportion="0.0" vertical-offset="2238" max-vertical-offset="5593" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/clinic-admin/user.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="32" selection-start="4993" selection-end="4993" vertical-scroll-proportion="0.0" vertical-offset="1698" max-vertical-offset="2465" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/sales/user.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="54" selection-start="3119" selection-end="3119" vertical-scroll-proportion="0.0" vertical-offset="1837" max-vertical-offset="2601" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/users/my-applications.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="16" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.0" vertical-offset="776" max-vertical-offset="1462" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/users/referral-application.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="27" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="1105" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/users/closedtrials.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="77" selection-start="253" selection-end="329" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="1071" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/users/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="39" selection-start="527" selection-end="527" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="523" selection-end="523" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1802" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Routes/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="42" selection-start="4207" selection-end="4207" vertical-scroll-proportion="-31.923077" vertical-offset="479" max-vertical-offset="1530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ApplicationsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="187" selection-start="3447" selection-end="3626" vertical-scroll-proportion="-15.038462" vertical-offset="1377" max-vertical-offset="3111" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/trials-edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="14" selection-start="2177" selection-end="2177" vertical-scroll-proportion="-28.76923" vertical-offset="255" max-vertical-offset="4335" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ConversationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1039" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/MessagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="5" selection-start="749" selection-end="1082" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="2788" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/conversations.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="1239" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="901" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Routes/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="61" selection-start="2099" selection-end="2099" vertical-scroll-proportion="-24.192308" vertical-offset="102" max-vertical-offset="1360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MessagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="35" selection-start="431" selection-end="431" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="1819" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/users/messages-box.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="984" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/users/message-single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="997" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/users/messages.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="39" selection-start="561" selection-end="561" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Functions/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="48" selection-start="3631" selection-end="3631" vertical-scroll-proportion="-7.923077" vertical-offset="1936" max-vertical-offset="8126" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Sales/ClinicsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="97.19231" vertical-offset="2527" max-vertical-offset="3740" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Sales/SalesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="34" selection-start="2980" selection-end="3072" vertical-scroll-proportion="-13.076923" vertical-offset="952" max-vertical-offset="3043" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SalesManager/SalesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="80" selection-start="2118" selection-end="2118" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="2176">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/users/opentrials.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1810" selection-end="1810" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ConversationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1039">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ClinicsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3451">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SalesManager/AccountController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SalesManager/TrailsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1239">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/TrialsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="294" column="9" selection-start="10816" selection-end="10816" vertical-scroll-proportion="0.0" vertical-offset="4998" max-vertical-offset="7429">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/trials.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="20" selection-start="1303" selection-end="1701" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="7242">
+          <folding>
+            <marker date="1525913872238" expanded="false" signature="11391:11402" placeholder="..." />
+            <marker date="1525913872238" expanded="false" signature="17875:17886" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AccountsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="23" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.0" vertical-offset="1666" max-vertical-offset="13294">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/sales/users.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="21" selection-start="4919" selection-end="4919" vertical-scroll-proportion="-7.8461537" vertical-offset="1581" max-vertical-offset="4165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="537" selection-end="537" vertical-scroll-proportion="0.46477392" vertical-offset="0" max-vertical-offset="951">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
